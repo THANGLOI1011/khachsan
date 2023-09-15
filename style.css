@@ -125,7 +125,7 @@
      left: 0;
     bottom: -6px;
     width: 100%;
-    height: 2px;
+    height: 3px;
     background-color:#cbaa5d;
     border-radius: 5px;
 
@@ -318,7 +318,7 @@
     content: '';
      left: 46%;
     bottom: -14px;
-    width: 8%;
+    width: 5%;
     height: 2px;
     background-color:#cbaa5d;
     border-radius: 5px;
@@ -487,7 +487,7 @@
      position: absolute;
     content: '';
      left: 48%;
-     top: 100px;
+     top: 158px;
     width: 5%;
     height: 2px;
     background-color:#cbaa5d;
@@ -539,7 +539,7 @@
 
 .main-fourth-food-list{
      /* padding-left: 178px; */
-     padding-right: 158px;
+     /* padding-right: 158px; */
    
 }
 .main-fourth-icon{
@@ -781,6 +781,32 @@
 }
 .btn-seeroom{
     display: none;
+}
+.navbar-book-btn button:hover,
+.main-first-name button:hover,
+.main-second-name button:hover{
+    background-color: #333;
+}
+.main-fourth-icon:hover{
+    color: #fff;
+}
+.main-fourth-food-list-item-info-name span:hover{
+    color: #fff;
+}
+.scroll{
+    position:fixed;
+    color: #fff;
+}
+#price{
+    font-size: 16px;
+    color: #cbaa5d;
+    margin-right: 4px;
+    font-weight: 500;
+}
+.main-second-name-flex{
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 
